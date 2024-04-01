@@ -24,7 +24,7 @@
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/background_image.jpeg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/915988c20bba56c0b5691503/pexels-photo-3218467.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
