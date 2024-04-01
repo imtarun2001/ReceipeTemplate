@@ -201,7 +201,7 @@
 #content3 {
     height: 730px;
     margin-top: 20px;
-    background-image: url('/img/content3_bg_img.jpg');
+    background-image: url('./img/content3_bg_img.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% -20px, 50% -3.07075vh;
@@ -295,7 +295,7 @@
                     align-items: start;
                 }
                         #subcontent4aa {
-                            background-image: url('/img/choco_cake.jpg');
+                            background-image: url('./img/choco_cake.jpg');
                             background-size: cover;
                             background-position: center;
                             background-repeat: no-repeat;
@@ -304,7 +304,7 @@
                             justify-content: space-evenly;
                         }
                         #subcontent4ac {
-                            background-image: url('/img/starwberry_oats_img.jpeg');
+                            background-image: url('./img/starwberry_oats_img.jpeg');
                             background-size: cover;
                             background-position: center;
                             background-repeat: no-repeat;
@@ -313,7 +313,7 @@
                             justify-content: space-evenly;
                         }
                         #subcontent4ae {
-                            background-image: url('/img/banana_oats_img.jpeg');
+                            background-image: url('./img/banana_oats_img.jpeg');
                             background-size: cover;
                             background-position: center;
                             background-repeat: no-repeat;
@@ -342,7 +342,7 @@
             width: 45%;
             margin-top: 25px;
             margin-left: 10px;
-            background-image: url('/img/omlet.jpeg');
+            background-image: url('./img/omlet.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -359,7 +359,7 @@
             height: 95%;
             width: 38.7%;
             margin-top: 6px;
-            background-image: url('/img/bread.jpeg');
+            background-image: url('./img/bread.jpeg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -447,19 +447,19 @@
                             height: 100%;
                         }
                         #subcontent7aaa1 {
-                            background-image: url('/img/first.jpg');
+                            background-image: url('./img/first.jpg');
                             background-size: cover;
                             background-repeat: no-repeat;
                             
                         }
                         #subcontent7aaa2 {
-                            background-image: url('/img/second.jpg');
+                            background-image: url('./img/second.jpg');
                             background-size: cover;
                             background-repeat: no-repeat;
                             
                         }
                         #subcontent7aaa3 {
-                            background-image: url('/img/third.jpeg');
+                            background-image: url('./img/third.jpeg');
                             background-size: cover;
                             background-repeat: no-repeat;
                             
@@ -476,21 +476,21 @@
                             height: 100%;
                         }
                         #subcontent7abb1 {
-                            background-image: url('/img/fourth.jpg');
+                            background-image: url('./img/fourth.jpg');
                             background-size: cover;
                             background-repeat: no-repeat;
                             background-position: center;
                             
                         }
                         #subcontent7abb2 {
-                            background-image: url('/img/fifth.jpg');
+                            background-image: url('./img/fifth.jpg');
                             background-size: cover;
                             background-repeat: no-repeat;
                             background-position: center;
                             
                         }
                         #subcontent7abb3 {
-                            background-image: url('/img/sisxth.jpg');
+                            background-image: url('./img/sisxth.jpg');
                             background-size: cover;
                             background-repeat: no-repeat;
                             background-position: center;
@@ -521,7 +521,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url('/img/chicken1.jpeg');
+            background-image: url('./img/chicken1.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -533,7 +533,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url('/img/chicken2.jpeg');
+            background-image: url('./img/chicken2.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -545,7 +545,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url('/img/chicken3.jpeg');
+            background-image: url('./img/chicken3.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
