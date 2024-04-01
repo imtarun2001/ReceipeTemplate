@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipe template</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div id="Navbar">
+                <ul class="ul">
+                    <li class="li"><a href="#">HOME</a></li>
+                    <li class="li"><a href="#">ABOUT</a></li>
+                    <li class="li"><a href="#">SERVICES</a></li>
+                    <li class="li"><a href="#">CONTACT</a></li>
+                </ul>
+                <div id="close" onclick="CloseNav()">X</div>
+            </div>
+            <div class="menubar-icon" onclick="OpenNav()">
+                <div class="menubar-icon1"></div>
+                <div class="menubar-icon1"></div>
+                <div class="menubar-icon1">A</div>
+            </div>
+            <div class="restaurant-icon">
+                <img src="/img/icon.png" alt="restaurant-icon">
+            </div>
+            <div class="restaurant-shorthead"><h4>One Step to Making a Good Start</h4></div>
+            <div class="restaurant-description">Mauris fermentum tortor non enim aliquet condimentum. Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit.</div>
+            <i class="fa fa-caret-down" style="font-size:85px"></i>
+        </div>
+        <div class="content" id="content1">
+            <div class="our-menu"><pre>O U R  M E N U</pre></div>
+            <div class="delicious-from-the-chef">Delicious From The Chef</div>
+        </div>
+        <div class="content" id="content2">
+            <div class="food-name" id="food-nameA">
+                <div class="food-name1">PEAR SALAD / $11
+                    <P class="food-name2">Reid’s Orchard Pears / Bitter Greens / Granola / Big Firefly / Farms Black and Blue / Pine Nut Vinaigrette</P>
+                </div>
+                <div class="food-name1">FARM GREENS / $9
+                    <P class="food-name2">Honey Vinaigrette / House Cheese Crouton / Fine Herbs</P>
+                </div>
+                <div class="food-name1">RICCOTA GNUD / $18
+                    <P class="food-name2">Marinated Sardine / Red Currant / Chanterelles / Pine Nuts / Mantecato Vitello / Fennel / Olive / Pepitas</P>
+                </div>
+            </div>
+            <div class="food-name" id="food-nameB">
+                <div class="food-name1">BRODETTO DI PESCE / $9
+                    <P class="food-name2">Adriatic Seafood Soup / Clams / Prawns / Livornese / Langoustine Scallop / Celery / Olive</P>
+                </div>
+                <div class="food-name1">GRILLED KALE / $9
+                    <P class="food-name2">Bitter Greens / House Cheese Crouton / Kamon Iberico</P>
+                </div>
+                <div class="food-name1">CANESTRELLI / $18
+                    <P class="food-name2">Reid Orchatd Pears / Bitter Greens / House Cheese Crouton / Marinated Sardine / Chanterelles / Clams</P>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="content3">
+
+                <div class="for-desserts1">
+                    <div class="for-desserts3">
+                        <div class="f-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="48" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,0c-17.01187,0 -30.96,13.94813 -30.96,30.96c0,1.78719 0.17469,3.46688 0.43,5.0525c-12.20125,4.16563 -21.07,15.78906 -21.07,29.3475c0,10.69625 5.64375,20.23688 14.19,25.8l34.2925,78.7975c0.56438,1.20938 1.78719,1.98875 3.1175,1.98875c1.33031,0 2.55313,-0.77937 3.1175,-1.98875l34.185,-78.5825c8.64031,-5.46906 14.2975,-15.03656 14.2975,-26.015c0,-13.545 -8.88219,-25.07437 -21.07,-29.24c0.24188,-1.66625 0.43,-3.39969 0.43,-5.16c0,-17.01187 -13.94812,-30.96 -30.96,-30.96zM86,6.88c13.26281,0 24.08,10.81719 24.08,24.08c0,1.02125 -0.16125,2.27094 -0.3225,3.5475c-1.03469,-0.1075 -2.05594,-0.1075 -3.1175,-0.1075c-3.89687,0 -7.69969,0.7525 -10.8575,1.935c-1.78719,0.68531 -2.67406,2.67406 -1.98875,4.46125c0.68531,1.78719 2.67406,2.67406 4.46125,1.98875c2.33813,-0.87344 5.40188,-1.505 8.385,-1.505c13.26281,0 24.08,10.81719 24.08,24.08c0,8.78813 -4.47469,16.20563 -11.395,20.425c-0.24187,0.14781 -0.45687,0.33594 -0.645,0.5375c-2.41875,0.5375 -15.03656,3.1175 -32.68,3.1175c-16.13844,0 -28.07094,-2.10969 -31.9275,-2.9025c-0.04031,-0.04031 -0.06719,-0.06719 -0.1075,-0.1075c-0.20156,-0.13437 -0.41656,-0.24187 -0.645,-0.3225c-7.22937,-4.21937 -12.04,-12.04 -12.04,-20.7475c0,-13.26281 10.81719,-24.08 24.08,-24.08c13.26281,0 24.08,10.81719 24.08,24.08c0,4.54188 -1.22281,8.74781 -3.3325,12.3625c-0.77937,1.06156 -0.88687,2.4725 -0.28219,3.64156c0.61812,1.16906 1.84094,1.88125 3.15781,1.84094c1.33031,-0.04031 2.49937,-0.83312 3.03687,-2.0425c2.70094,-4.63594 4.3,-10.02437 4.3,-15.8025c0,-17.01187 -13.94812,-30.96 -30.96,-30.96c-1.06156,0 -2.08281,0 -3.1175,0.1075c-0.18812,-1.23625 -0.3225,-2.45906 -0.3225,-3.5475c0,-13.26281 10.81719,-24.08 24.08,-24.08zM57.2975,93.955c4.67625,0.83313 11.73094,1.77375 21.285,2.15l-11.5025,11.5025l-6.88,-6.88zM114.7025,93.955l-2.9025,6.7725l-6.88,6.9875l-11.5025,-11.61c9.62125,-0.36281 16.58188,-1.30344 21.285,-2.15zM86,98.47l14.0825,14.0825l-13.975,14.19l-14.19,-14.2975zM67.8325,118.1425l13.4375,13.4375l-5.2675,5.375zM104.06,118.3575l-7.955,18.3825l-5.16,-5.16zM86.1075,136.4175l7.095,7.095l-7.2025,16.4475l-7.095,-16.2325z"></path></g></g></svg></div>
+                        <p>TOP ICE-CREAM</p>
+                    </div>
+                    <div class="for-desserts3">
+                        <div class="f-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M84.20833,10.75c-19.21262,0 -34.04167,13.54089 -34.04167,30.45833v6.83073c-15.07387,3.19481 -26.44875,15.41211 -27.98779,31.01823c-6.32767,0.5991 -11.42887,5.84856 -11.42887,12.31771c0,16.75802 13.70031,30.45833 30.45833,30.45833h39.41667v28.66667h-32.25c-1.93842,-0.02741 -3.74144,0.99102 -4.71865,2.66532c-0.97721,1.6743 -0.97721,3.74507 0,5.41937c0.97721,1.6743 2.78023,2.69273 4.71865,2.66532h75.25c1.93842,0.02741 3.74144,-0.99102 4.71865,-2.66532c0.97721,-1.6743 0.97721,-3.74507 0,-5.41937c-0.97721,-1.6743 -2.78023,-2.69273 -4.71865,-2.66532h-32.25v-28.66667h39.41667c16.75802,0 30.45833,-13.70031 30.45833,-30.45833c0,-6.46915 -5.1012,-11.71861 -11.42887,-12.31771c-1.5744,-17.57913 -14.52481,-31.32479 -31.57113,-34.60156v-3.2474c0,-16.91744 -14.82905,-30.45833 -34.04167,-30.45833zM84.20833,21.5c14.42771,0 23.29167,8.91944 23.29167,19.70833v2.37256c-4.27011,0.64816 -8.21559,1.99769 -11.35889,3.56934c-1.76505,0.83016 -2.94191,2.55129 -3.07512,4.49726c-0.1332,1.94597 0.79816,3.81141 2.43362,4.87434c1.63546,1.06293 3.71838,1.15654 5.4426,0.24461c3.32164,-1.66082 7.21888,-3.01644 10.14111,-3.01644c14.62381,0 26.12081,10.97741 27.9458,25.08333h-106.06527c1.7924,-12.12135 11.72763,-21.5 24.36947,-21.5c10.67801,0 18.07199,3.30883 22.0599,11.34489c0.82533,1.76695 2.54291,2.94831 4.48817,3.08699c1.94526,0.13868 3.81306,-0.78707 4.8807,-2.41907c1.06764,-1.632 1.16766,-3.71423 0.26134,-5.44103c-5.42202,-10.92596 -16.2553,-16.04697 -28.10677,-16.94385v-5.75293c0,-10.78889 8.86395,-19.70833 23.29167,-19.70833zM23.29167,89.58333h125.41667c1.05724,0 1.79167,0.73442 1.79167,1.79167c0,10.94831 -8.76002,19.70833 -19.70833,19.70833h-89.58333c-10.94831,0 -19.70833,-8.76002 -19.70833,-19.70833c0,-1.05724 0.73442,-1.79167 1.79167,-1.79167z"></path></g></g></svg></div>
+                        <p>FRUIT SORBETS</p>
+                    </div>
+                    <div class="for-desserts3">
+                        <div class="f-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M116.49683,16.42419c-11.59866,0.03401 -23.08457,4.96222 -31.00598,14.45581c-2.12313,2.58 -3.20107,4.81251 -3.68482,6.64002l-43.61413,52.21728c-1.34375,1.58563 -1.96293,3.59957 -1.74793,5.66895c0.18812,2.09625 1.2056,4.00564 2.84497,5.32251l12.63965,10.31958c-0.05789,0.06051 -0.13592,0.09051 -0.18897,0.15747l-18.76001,23.59961c-3.99094,5.031 -3.39406,12.4265 1.33325,16.48193c1.15831,0.99169 2.47284,1.7166 3.90527,2.15735c1.06694,0.33056 2.15571,0.48816 3.2334,0.48816c3.39163,0 6.69452,-1.57618 8.96008,-4.42493l19.13794,-24.07727l16.58691,13.54248c0.80625,0.645 1.72,1.12686 2.6875,1.42248c0.77938,0.24187 1.55644,0.34644 2.33582,0.34644c2.31125,0 4.51563,-0.99186 6.02063,-2.79248l4.94458,-5.9104v10.04663c0,4.6225 3.62812,8.41418 8.0625,8.41418c4.43438,0 8.0625,-3.79168 8.0625,-8.41418v-18.40833c0.83313,0.3225 1.74688,0.48291 2.6875,0.48291c4.43438,0 8.0625,-3.7898 8.0625,-8.49292v-15.79956l17.30603,-20.69165c0.59125,-0.1075 1.07773,-0.43021 1.45398,-0.88709c3.38625,-4.05813 5.80479,-8.68209 7.17542,-13.60022c0.08062,-0.18812 0.13585,-0.35252 0.16272,-0.54065c1.34375,-4.43437 1.79601,-9.1058 1.31226,-13.86267c-0.9675,-9.62125 -5.69603,-18.33169 -13.27478,-24.51294c-4.03125,-3.30563 -8.59748,-5.74852 -13.54248,-7.2804c-0.34938,-0.1075 -0.70043,-0.21857 -1.0498,-0.29919c-0.16125,-0.05375 -0.34728,-0.10372 -0.5354,-0.15747c-3.7625,-1.08844 -7.64489,-1.62279 -11.51111,-1.61145zM116.6123,21.79395c2.95625,0 5.91061,0.37604 8.81311,1.12854l1.58521,0.43042c0.34938,0.08063 0.67481,0.1602 0.99731,0.2677c4.3,1.34375 8.24832,3.4442 11.74207,6.31982c6.47687,5.2675 10.48377,12.68311 11.3169,20.90686c0.43,4.35375 -0.05774,8.65627 -1.40149,12.66064c-0.91375,3.17125 -2.33896,6.18146 -4.22021,8.94959c-0.1075,-0.08063 -0.21206,-0.19233 -0.34644,-0.27295c-2.55312,-1.98875 -5.69624,-3.22101 -8.78686,-3.30164c-3.7625,-0.08062 -7.17793,1.5029 -9.75793,4.56665c-5.93937,7.14875 -10.42876,9.54168 -13.38501,7.12293c-3.35937,-2.74125 -0.3731,-8.35729 4.5719,-16.60791c4.97187,-8.2775 10.58875,-17.63462 3.35938,-23.54712c-3.09063,-2.55312 -6.53251,-3.43811 -9.99939,-3.43811c-4.59562,0 -9.29938,1.58395 -13.41126,2.98145c-4.21937,1.45125 -8.60021,2.92958 -10.29333,1.55896c-0.34938,-0.26875 -0.53414,-0.64353 -0.58789,-1.18103c0,-0.1075 -0.00063,-0.26917 0.02625,-0.43042c0.02687,-0.94063 0.48123,-2.82208 2.79248,-5.59021c6.88,-8.25062 16.88023,-12.52417 26.98523,-12.52417zM111.48401,42.36487c2.26065,0.07055 4.37621,0.69854 6.23059,2.22034c3.35938,2.74125 0.3731,8.35728 -4.5719,16.60791c-4.97187,8.2775 -10.58812,17.62937 -3.38562,23.54187c1.8275,1.47812 3.78853,2.23083 5.85791,2.23083c4.43438,0 9.49044,-3.35937 15.08044,-10.07812c1.505,-1.80063 3.32998,-2.68351 5.47998,-2.62976c2.06938,0.05375 4.00647,0.91249 5.51147,2.06812l-12.68689,15.18542v-2.82397c0,-1.47812 -1.20938,-2.6875 -2.6875,-2.6875c-1.47812,0 -2.6875,1.20938 -2.6875,2.6875v9.24353v8.38794v9.34851c0,1.72 -1.20938,3.11792 -2.6875,3.11792c-1.47812,0 -2.6875,-1.39792 -2.6875,-3.11792v-2.92895v-8.35645v-2.25708v-5.375c0,-1.47812 -1.20938,-2.6875 -2.6875,-2.6875c-1.47812,0 -2.6875,1.20938 -2.6875,2.6875v5.375v13.54248v3.49585v22.92249c0,1.66625 -1.20938,3.03918 -2.6875,3.03918c-1.47812,0 -2.6875,-1.37293 -2.6875,-3.03918v-16.49768v-8.36169v-4.35144c0,-1.47812 -1.20938,-2.6875 -2.6875,-2.6875c-1.47812,0 -2.6875,1.20938 -2.6875,2.6875v10.80249l-9.05457,10.83398c-0.48375,0.56438 -1.18502,0.85559 -1.91064,0.85559c-0.24187,0 -0.50874,-0.02436 -0.75061,-0.10498c-0.3225,-0.1075 -0.61833,-0.26854 -0.88708,-0.45667l-46.84229,-38.24438c-0.51062,-0.40313 -0.83333,-0.99207 -0.88708,-1.66394c-0.08062,-0.61812 0.1054,-1.23793 0.5354,-1.72168l40.60645,-48.59021c0.29563,0.40313 0.64668,0.77979 1.0498,1.10229c4.00438,3.25188 9.5675,1.36936 15.45313,-0.61939c4.09844,-1.39414 8.27876,-2.82082 12.04651,-2.70325zM86.60889,51.50342c-0.68598,0.0477 -1.34937,0.35958 -1.83716,0.91858c-0.97556,1.118 -0.85555,2.81423 0.26245,3.7898l4.05225,3.52734c1.12069,0.97288 2.82217,0.85555 3.79504,-0.26245c0.97288,-1.12069 0.85555,-2.81948 -0.26245,-3.79504l-4.0575,-3.52734c-0.56034,-0.48644 -1.26665,-0.69858 -1.95264,-0.65088zM77.79053,61.63928c-0.68598,0.0477 -1.34937,0.35958 -1.83716,0.91858c-0.97288,1.12069 -0.85555,2.81423 0.26245,3.78979l4.05225,3.52734c1.12069,0.97556 2.82217,0.85824 3.79504,-0.26245c0.97288,-1.12069 0.85555,-2.81948 -0.26245,-3.79505l-4.0575,-3.52209c-0.56034,-0.48644 -1.26665,-0.70383 -1.95264,-0.65613zM68.97742,71.78039c-0.68598,0.0477 -1.35463,0.35958 -1.84241,0.91858c-0.97288,1.12069 -0.85555,2.81423 0.26245,3.7898l4.0575,3.52734c1.12069,0.97556 2.81692,0.85823 3.78979,-0.26245c0.97288,-1.12069 0.85555,-2.81948 -0.26245,-3.79504l-4.0575,-3.52734c-0.56034,-0.48644 -1.2614,-0.69858 -1.94739,-0.65088zM60.15906,81.92151c-0.68598,0.0477 -1.35463,0.35433 -1.84241,0.91333c-0.97556,1.118 -0.85555,2.81948 0.26245,3.79504l4.0575,3.52734c1.12069,0.97556 2.81423,0.85299 3.78979,-0.2677c0.97288,-1.12069 0.85555,-2.81423 -0.26245,-3.7898l-4.0575,-3.52734c-0.56034,-0.48644 -1.2614,-0.69858 -1.94739,-0.65088zM51.3407,92.06262c-0.68598,0.0477 -1.35463,0.35433 -1.84241,0.91333c-0.97287,1.12069 -0.85555,2.81948 0.26245,3.79504l4.0575,3.5221c1.12069,0.97556 2.81423,0.85824 3.78979,-0.26245c0.97288,-1.12069 0.85555,-2.81423 -0.26245,-3.78979l-4.0575,-3.52734c-0.56034,-0.48644 -1.2614,-0.69858 -1.94739,-0.65088zM104.8125,94.0625c-1.4835,0 -2.6875,1.204 -2.6875,2.6875v5.375c0,1.4835 1.204,2.6875 2.6875,2.6875c1.4835,0 2.6875,-1.204 2.6875,-2.6875v-5.375c0,-1.4835 -1.204,-2.6875 -2.6875,-2.6875zM56.02283,114.39197l9.35901,7.64258l-19.17993,24.12976c-1.59906,2.01294 -4.11137,2.85098 -6.40381,2.14685c-0.72294,-0.22306 -1.39019,-0.59436 -1.98413,-1.10229c-2.56119,-2.20106 -2.84182,-6.26482 -0.62463,-9.05982l18.75476,-23.60486c0.03697,-0.04657 0.04533,-0.10403 0.07874,-0.15222z"></path></g></g></svg></div>
+                        <p>CHIP FLAVOURS</p>
+                    </div>
+                </div>
+                <div class="for-desserts2">
+                    <div class="for-desserts3">
+                        <div class="f-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="48" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,0c-19.41719,0 -35.27344,15.25156 -36.335,34.4c-15.33219,4.32688 -26.66,18.3825 -26.66,35.045c0,0.86 -0.05375,1.80063 0,2.795h-9.245c-4.70312,0 -8.15656,4.56875 -6.665,9.03c0,0.04031 0,0.06719 0,0.1075l1.3975,3.7625c8.58656,23.28719 28.60844,39.78844 52.3525,44.29c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c3.77594,3.26531 3.77594,7.69969 0,10.965c-0.04031,0.04031 -0.06719,0.06719 -0.1075,0.1075c-0.04031,0.04031 -0.06719,0.06719 -0.1075,0.1075c-11.15312,4.54188 -20.5325,13.81375 -26.1225,26.015c-0.215,0.47031 -0.33594,0.98094 -0.3225,1.505v0.3225c0,1.89469 1.54531,3.44 3.44,3.44h96.32c1.89469,0 3.44,-1.54531 3.44,-3.44v-0.3225c-0.01344,-0.48375 -0.12094,-0.95406 -0.3225,-1.3975c-5.41531,-12.3625 -14.99625,-21.8225 -26.3375,-26.3375c-3.77594,-3.26531 -3.77594,-7.69969 0,-10.965c0.08063,-0.06719 0.14781,-0.13437 0.215,-0.215c23.59625,-4.59562 43.48375,-21.00281 52.03,-44.1825l1.3975,-3.7625h-0.1075c1.85438,-4.31344 -1.65281,-9.1375 -6.235,-9.1375h-9.245c0.05375,-0.99437 0,-1.935 0,-2.795c0,-16.6625 -11.32781,-30.71812 -26.66,-35.045c-1.06156,-19.14844 -16.91781,-34.4 -36.335,-34.4zM86,6.88c15.27844,0 27.85594,11.5025 29.455,26.3375c-0.98094,-0.08062 -2.00219,-0.215 -3.01,-0.215c-10.46781,0 -19.65906,4.54188 -26.3375,11.395c-6.665,-6.97406 -16.08469,-11.395 -26.5525,-11.395c-1.00781,0 -2.02906,0.13438 -3.01,0.215c1.59906,-14.835 14.17656,-26.3375 29.455,-26.3375zM59.555,39.8825c14.23031,0 25.84031,9.86313 28.9175,22.79c0.41656,1.86781 2.27094,3.05031 4.13875,2.63375c1.86781,-0.41656 3.05031,-2.27094 2.63375,-4.13875c-0.9675,-4.04469 -2.63375,-7.86094 -4.8375,-11.2875c5.56313,-6.07375 13.19563,-9.9975 22.0375,-9.9975c16.36688,0 29.67,13.19563 29.67,29.5625c0,0.99438 -0.04031,1.94844 -0.1075,2.795h-112.015c-0.06719,-0.84656 -0.1075,-1.80062 -0.1075,-2.795c0,-16.36687 13.30313,-29.5625 29.67,-29.5625zM13.76,79.12h144.3725l-1.3975,3.655c-9.1375,24.80563 -32.5725,41.065 -59.0175,41.065h-23.7575c-26.445,0 -49.88,-16.25937 -59.0175,-41.065l-1.29,-3.5475c0.02688,-0.01344 0.05375,-0.1075 0.1075,-0.1075zM69.66,130.505c1.42438,0.08063 2.86219,0.215 4.3,0.215h23.7575c1.54531,0 3.10406,-0.12094 4.6225,-0.215c-0.86,2.48594 -1.02125,5.09281 -0.43,7.6325c-2.0425,-0.3225 -4.13875,-0.5375 -6.235,-0.5375h-19.35c-2.09625,0 -4.1925,0.215 -6.235,0.5375c0.59125,-2.53969 0.43,-5.14656 -0.43,-7.6325zM76.325,144.48h19.35c13.06125,0 25.23563,8.0625 32.5725,20.64h-84.495c7.53844,-12.64469 19.49781,-20.64 32.5725,-20.64z"></path></g></g></svg></div>
+                        <p>SUNDAES</p>
+                    </div>
+                    <div class="for-desserts3">
+                        <div class="f-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M11.04563,10.32l5.88562,82.38531l4.24625,59.36687c0.26875,4.04469 2.88906,7.4175 6.46344,8.85531c0,0.01344 0,0 0.01344,0c0.59125,0.24188 1.20937,0.43 1.85437,0.55094c0,0.01344 0,0 0,0c0.3225,0.06719 0.65844,0.08063 0.99438,0.1075c0.3225,0.02688 0.645,0.09406 0.98094,0.09406c0,0 0,0 0.01344,0h49.06031c0.67187,0 1.33031,-0.06719 1.96187,-0.20156c0.645,-0.12094 1.27656,-0.30906 1.86781,-0.55094c3.58781,-1.43781 6.19469,-4.81062 6.46344,-8.84187l4.42094,-61.83938l5.72437,-79.92625zM18.43625,17.2h75.16938l-2.21719,30.96h-70.74844zM152.17969,41.28c-16.38031,0 -30.745,10.6425 -36.55,26.17625l-2.16344,-12.98062c-0.24187,-1.65281 -1.65281,-2.88906 -3.3325,-2.92938c-1.02125,-0.01344 -2.01562,0.43 -2.67406,1.20938c-0.67187,0.79281 -0.95406,1.8275 -0.76594,2.84875l2.94281,17.65687c-2.19031,0.48375 -4.32688,1.10188 -6.38281,1.89469l-5.53625,77.38656c0,0.06719 -0.02687,0.12094 -0.04031,0.18813c6.22156,3.49375 13.38375,5.50937 21.00281,5.50937c23.71719,0 43,-19.28281 43,-43c0,-17.80469 -10.87094,-33.09656 -26.32406,-39.62719c11.59656,-5.34813 20.38469,-16.40719 22.83031,-30.14031l0.41656,-3.77594l-3.80281,-0.29563c-0.86,-0.05375 -1.73344,-0.12094 -2.62031,-0.12094zM127.28,116.96c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44zM141.04,116.96c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44zM134.16,127.28c1.89469,0 3.44,1.54531 3.44,3.44c0,1.89469 -1.54531,3.44 -3.44,3.44c-1.89469,0 -3.44,-1.54531 -3.44,-3.44c0,-1.89469 1.54531,-3.44 3.44,-3.44z"></path></g></g></svg></div>
+                        <p>SMOOTHIES</p>
+                    </div>
+                    <div class="for-desserts3">
+                        <div class="f-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M38.7,8.6c-15.4112,0 -27.95,12.5388 -27.95,27.95c0,15.4112 12.5388,27.95 27.95,27.95c3.28735,0 6.48833,-0.58534 9.51123,-1.67969l-2.79668,-3.59873c-2.16075,0.63855 -4.4119,0.97842 -6.71455,0.97842c-13.03975,0 -23.65,-10.61025 -23.65,-23.65c0,-13.03975 10.61025,-23.65 23.65,-23.65c12.31405,0 22.44949,9.46525 23.54082,21.5h-23.54082c-0.82045,0.00083 -1.56892,0.46847 -1.92939,1.20548c-0.36048,0.73701 -0.27012,1.61493 0.23291,2.26307l47.98027,61.7957l0.97002,36.18467l-13.40391,2.6791c-4.66898,0.93379 -8.0499,5.06065 -8.0499,9.82197v2.15h2.15h2.15h47.3h2.15h2.15v-2.15c0,-4.76132 -3.38337,-8.88837 -8.0541,-9.82197l-13.39971,-2.6791l0.97002,-36.18467l47.98027,-61.7957c0.50303,-0.64814 0.59338,-1.52606 0.23291,-2.26307c-0.36048,-0.73701 -1.10895,-1.20466 -1.92939,-1.20548h-79.65918c-1.10423,-14.40791 -13.15488,-25.8 -27.84082,-25.8zM38.7,17.2c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM25.8,21.5c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM51.6,21.5c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM38.7,23.65c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM30.1,25.8c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM47.3,25.8c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM21.5,34.4c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM27.95,34.4c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM43.08818,38.7h21.41182h77.31182l-45.6833,58.82686c-0.01429,0.01797 -0.02829,0.03617 -0.04199,0.05459c-0.13266,0.17067 -0.23883,0.36037 -0.31494,0.5627c-0.04991,0.13323 -0.08649,0.27108 -0.10918,0.41152c-0.01144,0.06536 -0.01985,0.13122 -0.0252,0.19736c-0.00002,0.0056 -0.00002,0.0112 0,0.0168c-0.0018,0.02377 -0.00319,0.04757 -0.0042,0.07139l-1.0792,40.50986l16.94805,3.39297c1.89051,0.37789 3.10736,1.78471 3.83389,3.45596h-45.77148c0.72655,-1.67131 1.94097,-3.07821 3.82969,-3.45596l16.95224,-3.39297l-1.0792,-40.48887c0.00003,-0.007 0.00003,-0.014 0,-0.021c-0.00784,-0.56203 -0.23545,-1.09865 -0.63408,-1.49492zM30.1,43c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM62.35,43c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM38.7,45.15c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM25.8,47.3c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM38.7,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM58.05,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM66.65,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM75.25,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM83.85,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM92.45,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM101.05,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM109.65,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM118.25,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM126.85,51.6c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15z"></path></g></g></svg></div>
+                        <p>DRINK & MORE</p>
+                    </div>
+                </div>
+                <div class="image-from-freepik"><pre>Image from <span style="border-bottom: 1px solid white;">Freepik</span></pre></div>
+            
+        </div>
+        <div class="content" id="content4">
+            <div class="subcontent4" id="subcontent4_a">
+                <div class="subcontent4a" id="subcontent4aa"></div>
+                <div class="subcontent4a" id="subcontent4ab">
+                    <p style="font-size: 1.125rem;
+                    letter-spacing: 4px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 200; padding-top: 25px;">HISTORY</p>
+                    <p style="font-weight: 700;
+                    width: 80%;
+                    font-size: 1.45rem;
+                    margin-top: 10px;
+                    text-align: center;
+                    font-family: 'Playfair Display', serif;">Strange story of the emergence of healthy food</p>
+                    <p style="font-size: 1rem;
+                    line-height: 1.6;
+                    width: 85%;
+                    text-align: center;
+                    margin-top: 10px;
+                    font-family: Roboto, sans-serif;">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <p style="text-align: center;
+                    margin-top: 20px;
+                    font-size: large;
+                    font-weight: 500;
+                    padding-bottom: 5px;"><u id="readmore">READ MORE</u></p>
+                </div>
+                <div class="subcontent4a" id="subcontent4ac"></div>
+            </div>
+            <div class="subcontent4" id="subcontent4_b">
+                <div class="subcontent4a" id="subcontent4ad">
+                    <h6 style="font-size: 1.125rem;
+                    letter-spacing: 4px;
+                    padding-top: 39px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 200;">COMMUNITY</h6>
+                    <p style="font-weight: 700;
+                    width: 80%;
+                    font-size: 1.5rem;
+                    margin-top: 10px;
+                    padding-top: 15px;
+                    text-align: center;
+                    font-family: 'Playfair Display', serif;">Healthy food in social networks, with us interesting</p>
+                    <p style="font-size: 1rem;
+                    line-height: 1.6;
+                    width: 85%;
+                    text-align: center;
+                    margin-top: 15px;
+                    font-family: Roboto, sans-serif;">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <p style="text-align: center;
+                    margin-top: 20px;
+                    font-size: large;
+                    font-weight: 400;
+                    padding-bottom: 40px;"><u id="readmore">READ MORE</u></p>
+                </div>
+                <div class="subcontent4a" id="subcontent4ae"></div>
+                <div class="subcontent4a" id="subcontent4af">
+                    <h6 style="font-size: 1.125rem;
+                    letter-spacing: 4px;
+                    text-transform: uppercase;
+                    padding-top: 13px;
+                    text-align: center;
+                    font-weight: 200;
+                    margin-top: 20px;">PHILOSOPHY</h6>
+                    <p style="font-weight: 700;
+                    width: 90%;
+                    font-size: 1.5rem;
+                    margin-top: 15px;
+                    padding-top: 5px;
+                    text-align: center;
+                    font-family: 'Playfair Display', serif;">Only the best food, the best musicians the best guests</p>
+                    <p style="font-size: 1rem;
+                    line-height: 1.6;
+                    width: 85%;
+                    text-align: center;
+                    margin-top: 10px;
+                    font-family: Roboto, sans-serif;">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <p style="text-align: center;
+                    margin-top: 20px;
+                    font-size: large;
+                    font-weight: 400;
+                    padding-bottom: 40px;"><u id="readmore">READ MORE</u></p>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="content5">
+            <div class="subcontent5a">
+                <p style="font-family: 'Playfair Display', serif;
+                font-size: 52px;
+                width: 100%;
+                padding-top: -1px;
+                font-weight: 700;
+                word-spacing: 0;">Health is the most precious</p>
+                <p style="font-size: 17px;
+                line-height: 1.5;
+                height: 45%;
+                font-weight: 400;
+                word-spacing:-0.07cm;
+                width: 95%;
+                margin-top: 20px;
+                font-family: Roboto, sans-serif;">While it is important to have naturally occurring sugars in your diet, many foods contain harmful added sugars that contain no nutritional value.
+                <br>
+                <br>
+                According to a study conducted by the University of Florida, the brain releases heroin-like chemicals called endogenous opioids when an individual indulges on sweet, salty or fatty foods.</p>
+                <p style="font-size: 13px;
+                border-bottom: 2px solid black;
+                font-weight: 100;
+                margin-right: 310px;
+                margin-top: 65px;
+                height: 5%;
+                width: 25%;
+                letter-spacing: 2px;
+                text-align: start;" id="readmore">READ MORE
+                </p>
+            </div>
+            <div class="subcontent5b"></div>
+        </div>
+        <div class="content" id="content6">
+            <div class="subcontent6a">image</div>
+            <div class="subcontent6b">
+                <div class="texts" id="Bakery">B A K E R Y</div>
+                <div class="texts" id="Review">Reviews</div>
+                <div class="texts" id="Quote">
+                    <img src="/img/quote-left.png" alt="">
+                </div>
+                <div class="texts" id="WeBring">We bring the season’s best mix of organic produce and hand-crafted farm products conveniently to your door by growing and partnering with local farms and artisans in your area.</div>
+                <div class="texts" id="Loo">– LOO HUDSON</div>
+            </div>
+        </div>
+        <div class="content" id="content7">
+            <div class="subcontent7" style="font-family:'playfair';
+            font-size: 51px;
+            font-weight: 600;
+            padding-bottom: 20px;">Learn Cooking Online</div>
+            <div class="subcontent7" style="padding-bottom: 30px;
+            font-weight: 400;">Sample text. Click to select the text box. Click again or double click to start editing the text.</div>
+                <div class="subcontent7a">
+                    <img src="/img/left btn.png" alt="" height="58px" style="padding-right: 10px; margin-top: 10px;" onclick="slideShowleftwillcome()">
+                    <div class="subcontent7aa">
+                        <div class="subcontent7aaa" id="subcontent7aaa1"></div>
+                        <div class="subcontent7aaa" id="subcontent7aaa2"></div>
+                        <div class="subcontent7aaa" id="subcontent7aaa3"></div>
+                    </div>
+                    <div class="subcontent7ab">
+                        <div class="subcontent7abb" id="subcontent7abb1"></div>
+                        <div class="subcontent7abb" id="subcontent7abb2"></div>
+                        <div class="subcontent7abb" id="subcontent7abb3"></div>
+                    </div>
+                    <img src="/img/right btn.png" alt="" height="58px" style="padding-left: 10px; margin-top: 10px;" onclick="slideShowrightwillcome()">
+                </div>
+                <div class="dotContainer" style="display: flex;flex-direction: row;justify-content:space-evenly; width: 40px; margin-top: 15px;">
+                    <div class="dot" style="height: 10px; width: 10px; background-color: rgb(187, 180, 180);border-radius: 100px;"></div>
+                    <div class="dot" style="height: 10px; width: 10px; background-color: rgb(188, 177, 177);border-radius: 100px;"></div>
+                </div>
+                <div class="subcontent7b" style="font-weight: 700;" id="readmore">READ MORE</div>
+        </div>
+        <div class="content" id="content8">
+            <div class="image1"></div>
+            <div class="image2"></div>
+            <div class="image3"></div>
+        </div>
+        <div class="footer" id="footer1">
+            <div class="footer1paragraph" style="font-weight: 700;line-height: 1.25cm; margin-top: 30px;">
+                We bring the season’s best mix of organic produce and hand-crafted farm products conveniently to your door by growing and partnering with local farms and artisans in your area.
+            </div>
+            <div class="logo">
+                <div class="logo1"><img src="/img/facebook-logo.png" alt="" height="82%"></div>
+                <div class="logo1"><img src="/img/twitter-logo.png" alt="" height="82%"></div>
+                <div class="logo1"><img src="/img/instagram-logo.png" alt="" height="82%"></div>
+            </div>
+        </div>
+        <div class="footer" id="footer2">
+            <div class="footer2paragraph1">
+                Sample text. Click to select the text box. Click again or double click to start editing the text.
+            </div>
+            <div class="footer2paragraph2" style="font-weight: 500;">Templated By <span style="font-family: 'Open Sans', sans-serif;color: #adcce9; font-weight: 500; letter-spacing: 0.1cm;">TARUN</span></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
